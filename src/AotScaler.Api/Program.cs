@@ -1,13 +1,13 @@
+using Scalar.AspNetCore;
+
 var builder = WebApplication.CreateSlimBuilder(args);
 
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
+app.MapOpenApi();
+app.MapScalarApiReference();
 
 app.MapGet("/", () => "Hello World!")
     .WithName("GetHelloWorld");
