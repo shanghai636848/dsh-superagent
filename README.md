@@ -9,3 +9,4 @@ This repository is the working target for the **dsh-superagent** agent.
 - **Scope:** small, explicit changes with a verifiable outcome. Design decisions come back as a question.
 
 This repository is a pilot target. Do not put secrets or production credentials in it.
+飞书接入测试通过。
