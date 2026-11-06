@@ -1,5 +1,7 @@
 # dsh-superagent — agent playground
 
+本仓库是 dsh-superagent 的试点目标仓库。
+
 This repository is the working target for the **dsh-superagent** agent.
 
 - **How to ask:** open an issue, or comment `@shanghai636848-agent <task>` on an issue.
