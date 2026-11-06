@@ -1,0 +1,14 @@
+# Build output
+bin/
+obj/
+artifacts/
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+# Native AOT intermediate files
+*.ilk
+*.pdb
